@@ -1,0 +1,225 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.pokedex {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px; 
+  width: 100%;
+  text-align: center;
+}
+
+.poke-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+  text-align: left;
+}
+
+.poke-image {
+  flex: 1;
+}
+
+.poke-image img {
+  max-width: 150px;
+}
+
+.poke-image h2 {
+  text-transform: capitalize;
+  margin: 10px 0;
+}
+
+.image-container {
+  border: 2px solid black; 
+  padding: 10px; 
+  display: inline-block;
+}
+
+.types {
+  display: flex;
+  justify-content: center;
+}
+
+.types ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.types li {
+  padding: 5px 15px;
+  border-radius: 10px;
+  color: white;
+  text-transform: capitalize;
+  font-size: 0.9rem;
+  background-color: #ddd; 
+}
+
+.poke-stats {
+  flex: 1;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.poke-stats p {
+  margin: 5px 0;
+}
+
+.navButtons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.navButtons button {
+  padding: 10px 20px;
+  background-color: #ccc;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.bottom-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.info-button, .moves-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ccc; 
+  color: black; 
+}
+
+.info-button.active {
+  background-color: #28a745; 
+  color: black; 
+}
+
+.moves-button.active {
+  background-color: #28a745; 
+}
+
+.moves-button {
+  background-color: #ccc; 
+}
+
+.name-container {
+  background-color: #ddd; 
+  padding: 1px; 
+  border-radius: 5px; 
+  text-align: center;
+  margin: 5px 0; 
+}
+
+.poke-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+}
+
+.left-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.poke-image {
+  margin-bottom: 20px;
+}
+
+.types {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.navButtons {
+  display: flex;
+  justify-content: space-between;
+  width: 100px; 
+}
+
+.navButtons button {
+  padding: 5px 15px;
+  background-color: #ccc;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.bottom-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin-top: 20px;
+}
+
+.info-button, .moves-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: gray; 
+  color: black;
+}
+
+.info-button.active, .moves-button.active {
+  background-color: green; 
+}
+
+#nameTag {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.types {
+  display: block; 
+}
+
+.types h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem; 
+}
+
+.types ul {
+  display: inline-flex;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.types li {
+  background-color: #ddd;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
